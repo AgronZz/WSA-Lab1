@@ -1,0 +1,12 @@
+curl https://jsonplaceholder.typicode.com/posts/1
+
+curl -i https://jsonplaceholder.typicode.com/posts/1curl "https://jsonplaceholder.typicode.com/posts?userId=1"
+
+
+curl https://jsonplaceholder.typicode.com/posts/1/comments
+
+curl -i -X POST -H "Content-Type: application/json" -d @body.json https://jsonplaceholder.typicode.com/posts
+
+curl -i -X PUT -H "Content-Type: application/json" -d @body.json https://jsonplaceholder.typicode.com/posts/1
+
+curl -i -X DELETE https://jsonplaceholder.typicode.com/posts/1curl -i https://jsonplaceholder.typicode.com/posts/99999
